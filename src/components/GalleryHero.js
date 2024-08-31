@@ -95,7 +95,7 @@ export const GalleryHero = () => {
                 <Image
                   src={heroImage4}
                   className="absolute inset-0 h-full w-full -rotate-3 rounded-2xl object-cover object-center shadow-2xl duration-300 ease-in-out group-hover:rotate-0 group-hover:scale-110 md:rotate-4"
-                  alt="Teacher reading to kids"
+                  alt="Teacher reading to students"
                   sizes="(min-width: 1280px) 22.5rem, 33vw"
                 />
               </figure>

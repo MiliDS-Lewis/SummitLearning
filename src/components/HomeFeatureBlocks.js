@@ -11,8 +11,8 @@ import squareImage2 from '/public/images/stock/home-blocks-04.jpg'
 
 const features = [
   'Personalized',
-  'Small classes',
-  'Montessori',
+  '1-to-1',
+  'In-Person or Online',
   'STEM focused',
   'Hands-on approach',
   'Diverse teachers & students',
@@ -22,8 +22,8 @@ const features = [
 const blocks = [
   {
     tagline: 'An eclectic approach to education',
-    headline: "Our goal is to ensure your little one's success in life",
-    text: 'Donec rutrum congue leo eget malesuada. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.',
+    headline: "Our goal is to ensure your child's success in life",
+    text: "At Summit Learning, we embrace an eclectic approach to education, combining diverse teaching methods to suit each student's unique needs. Our dedicated tutors tailor their strategies to foster individual strengths and address areas for improvement. By focusing on a well-rounded and personalized educational experience, we aim to equip your child with the skills, knowledge, and confidence needed for long-term success and a fulfilling future.",
     action: { label: 'Learn more', href: '/about', icon: true },
     portraitImage: { src: portraitImage1, alt: 'Kid stacking blocks' },
     squareImage: { src: squareImage1, alt: 'Children writing on workbook' },
@@ -31,7 +31,7 @@ const blocks = [
   {
     tagline: 'A second home for your child',
     headline: 'We provide an environment that enables students to thrive',
-    text: 'Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.',
+    text: 'At Summit Learning, we create a nurturing and supportive environment that feels like a second home for your child. Our welcoming and dedicated tutors foster a positive atmosphere where students feel comfortable and inspired to learn. By offering personalized attention and a caring approach, we ensure that each student can thrive academically and personally, reaching their full potential with confidence and enthusiasm.',
     action: { label: 'Learn more', href: '/about', icon: true },
     portraitImage: { src: portraitImage2, alt: 'Child covered in paint' },
     squareImage: { src: squareImage2, alt: 'Children eating' },
@@ -50,9 +50,7 @@ export const HomeFeatureBlocks = () => {
             Providing the best tailored support to your child's education
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-800">
-            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-            sem. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+          At Summit Learning, we provide personalized support tailored to your child's unique needs and learning style. Our expert tutors deliver targeted assistance to help students excel and achieve their academic goals. We focus on fostering growth, confidence, and success through a customized educational experience.
           </p>
           {/* Feature list */}
           <div className="mx-auto mt-12 max-w-3xl">

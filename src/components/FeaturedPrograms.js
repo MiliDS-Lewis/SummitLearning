@@ -83,12 +83,10 @@ export const FeaturedPrograms = () => {
         <div className="md:grid md:grid-cols-2 md:gap-12 lg:gap-16">
           <div>
             <h2 className="h2 max-w-4xl text-purple-900">
-              The best early education programs for your child
+              The best education programs for your child
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-purple-800 sm:mt-5 lg:text-left">
-              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-              dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-              sem.
+            At Summit Learning, we offer the best education programs tailored to your child’s unique needs. Our expert tutors design personalized learning plans that cater to each student’s strengths and areas for growth. 
             </p>
           </div>
         </div>

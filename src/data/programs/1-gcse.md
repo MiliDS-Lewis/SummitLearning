@@ -1,18 +1,19 @@
 ---
-name: Kindergarten
-dropdownDescription: Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+name: GCSE
+dropdownDescription: GCSEs are key qualifications for UK students aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
+featured: true
 hero:
-  tagline: Where great kids grow
-  headline: Summit Learning's Kindergarten Program
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean et tortor at risus viverra adipiscing at in.
+  tagline: Where great students grow
+  headline: Summit Learning's GCSE Program
+  text: GCSEs are key qualifications for UK students aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
   action:
     label: Enroll today
     href: '#'
     icon: true
   image:
-    src: '/images/stock/kindergarten.jpg'
+    src: '/images/stock/elementary-school.jpg'
 infoSection:
-  headline: The Kindergarten dedicated to your child's success
+  headline: The Elementary School dedicated to your child's success
   text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
   ages: 4 - 5 years old
   dates: Jan. 13 - Jun. 31
@@ -42,7 +43,7 @@ descriptionSection:
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Kindergarten Plans
+  tagline: Our Elementary School Plans
   headline: A program for every parent and child
   text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:

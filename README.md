@@ -66,7 +66,7 @@ name: Elementary School
 dropdownDescription: Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
 featured: true
 hero:
-  tagline: Where great kids grow
+  tagline: Where great students grow
   headline: Summit Learning's Elementary School Program
   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean et tortor at risus viverra adipiscing at in.
   action:

@@ -1,18 +1,18 @@
 ---
-name: Summer Camp
-dropdownDescription: Curabitur non nulla sit amet nisl tempu convallis quis ac lectus.
+name: A-Levels
+dropdownDescription: A-levels are advanced qualifications for UK students aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
 hero:
-  tagline: Where great kids grow
-  headline: Summit Learning's Summer Camp Program
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean et tortor at risus viverra adipiscing at in.
+  tagline: Where great students grow
+  headline: Summit Learning's A-level Program
+  text: A-levels are advanced qualifications for UK students aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
   action:
     label: Enroll today
     href: '#'
     icon: true
   image:
-    src: '/images/stock/summer-camp.jpg'
+    src: '/images/stock/kindergarten.jpg'
 infoSection:
-  headline: The Summer Camp dedicated to your child's success
+  headline: The Kindergarten dedicated to your child's success
   text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
   ages: 4 - 5 years old
   dates: Jan. 13 - Jun. 31
@@ -42,7 +42,7 @@ descriptionSection:
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Summer Camp Plans
+  tagline: Our Kindergarten Plans
   headline: A program for every parent and child
   text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:

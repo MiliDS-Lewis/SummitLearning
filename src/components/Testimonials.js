@@ -15,7 +15,7 @@ export const Testimonials = () => {
   const testimonials = getAllItems('testimonials')
 
   return (
-    <section className="bg-purple-600 py-20 sm:py-28 md:-mt-48 lg:py-32">
+    <section className="bg-blue-600 py-20 sm:py-28 md:-mt-48 lg:py-32">
       {/* Container */}
       <div className="mx-auto px-4 sm:px-6 lg:max-w-screen-2xl">
         {/* Section header title and subheader */}
@@ -23,7 +23,7 @@ export const Testimonials = () => {
           <h2 className="h2 max-w-2xl text-center text-white">
             See what parents are saying about us
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-purple-50">
+          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-50">
             Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
             dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
             sem.
@@ -47,7 +47,7 @@ export const Testimonials = () => {
                 className="h-20 w-20 rounded-full border-2 border-yellow-300 object-cover drop-shadow-2xl filter"
                 alt={item.data.name}
               />
-              <p className="mt-3 text-lg font-bold text-purple-900">
+              <p className="mt-3 text-lg font-bold text-blue-900">
                 {item.data.name}
               </p>
               {/* Rating */}
@@ -60,7 +60,7 @@ export const Testimonials = () => {
                   />
                 ))}
               </div>
-              <p className="mt-5 text-lg text-purple-800">
+              <p className="mt-5 text-lg text-blue-800">
                 "{item.data.testimonial}"
               </p>
             </blockquote>

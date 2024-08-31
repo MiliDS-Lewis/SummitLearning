@@ -44,7 +44,7 @@ export const HomeHero = () => {
             Empowering Academic Success!
           </h1>
           <p className="mt-3 max-w-2xl text-center text-xl leading-loose text-blue-800 lg:text-left">
-            At Summit Learning, we guide A-level and GCSE students to their
+            At Summit Learning, we guide GCSE and A-level students to their
             academic peak, nurturing their unique strengths and creativity
             through personalized education. Our goal is to ensure every student
             reaches their full potential and achieves success, exceeding their
