@@ -18,7 +18,6 @@ const navigation = [
   // { label: 'Gallery', href: '/gallery' },
   { label: 'Testimonials', href: '/parents' },
   { label: 'Contact', href: '/contact' },
-  { label: 'FAQs', href: '/faqs' },
 ]
 
 export function Navbar({ programs }) {
