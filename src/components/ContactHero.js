@@ -45,16 +45,15 @@ export const ContactHero = () => {
         {/* Hero header */}
         <div className="py-16 lg:py-32">
           <div>
-            <span className="inline-block -rotate-1 rounded-full bg-blue-200 px-4 py-2 font-medium text-blue-700 shadow-md">
+            <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
               Contact us today
             </span>
           </div>
-          <h1 className="h1 mt-4 max-w-md text-blue-900">
+          <h1 className="h1 mt-4 max-w-md text-gray-900">
             We'd love to hear from you
           </h1>
-          <p className="mt-3 max-w-lg text-xl leading-relaxed text-blue-800">
-            Praesent sapien massa, convallis a pellentesque nec, egestas non
-            nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+          <p className="mt-3 max-w-xl text-xl leading-relaxed text-blue-800">
+          Whether you have questions about our programs, need more information, or are ready to get started, we're here to help. Reach out to us by phone, email, or through our contact form. Our team at Summit Learning is eager to assist you in finding the right educational support for your child. Let's start a conversation about how we can help your child achieve their academic goals.
           </p>
         </div>
         {/* Contact form container */}
@@ -79,10 +78,10 @@ export const ContactHero = () => {
           {/* Contact form card */}
           <div className="relative z-10 mx-auto w-full rounded-3xl bg-white px-4 py-10 shadow-xl sm:p-16 lg:ml-auto lg:mr-0 lg:p-12 xl:p-14">
             <div>
-              <h3 className="text-2xl font-bold text-blue-900">
+              <h3 className="text-2xl font-bold text-gray-900">
                 Send us a message
               </h3>
-              <p className="mt-0.5 text-blue-800 text-opacity-90">
+              <p className="mt-0.5 text-gray-800 text-opacity-90">
                 We'll get back to you within 24 hours.
               </p>
             </div>
@@ -95,7 +94,7 @@ export const ContactHero = () => {
                 >
                   <label
                     htmlFor={field.name}
-                    className="ml-0.5 text-sm font-medium text-blue-900"
+                    className="ml-0.5 text-sm font-medium text-gray-900"
                   >
                     {field.label}
                   </label>

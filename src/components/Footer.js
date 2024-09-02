@@ -44,8 +44,7 @@ export const Footer = ({ programs, contact }) => {
           </div>
           {/* Mission statement */}
           <div className="mt-6 text-lg text-blue-800">
-            Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. Diam sit amet quam vehicula elementum sed sit.
+          Empowering Students, Achieving Excellence. The best tutors for your student.
           </div>
           {/* Social links */}
           <div className="mt-5 w-full lg:mt-6">

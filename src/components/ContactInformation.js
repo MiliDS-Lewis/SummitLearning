@@ -11,13 +11,12 @@ export const ContactInformation = () => {
         {/* Section header */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-32">
           <div className="flex items-center">
-            <h2 className="h2 max-w-4xl text-blue-900">Contact information</h2>
+            <h2 className="h2 max-w-4xl text-gray-900">Contact information</h2>
           </div>
           <div className="mt-3 flex items-center sm:mt-4 lg:mt-0">
-            <p className="text-lg text-blue-800 text-opacity-90 sm:text-xl">
-              Dictum urna sed consectetur neque tristique pellentesque. Blandit
-              amet, sed aenean erat arcu morbi.
-            </p>
+            <p className="text-lg text-gray-800 text-opacity-90 sm:text-xl">
+            We're here to help! Reach out by phone, email, or visit us to explore how Summit Learning can support your child's academic journey.
+</p>
           </div>
         </div>
         {/* Contact information cards */}

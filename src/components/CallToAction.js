@@ -13,7 +13,7 @@ export const CallToAction = () => {
         {/* Sunrise image */}
         <Image className="mx-auto w-72" src={sunrise} alt="" />
         {/* Header */}
-        <h2 className="h1 mx-auto mt-6 max-w-3xl text-center text-blue-900">
+        <h2 className="h1 mx-auto mt-6 max-w-3xl text-center text-gray-900">
           <span className="block">Let's unlock your kid's</span>
           {/* Underlined text */}
           <span className="relative block">

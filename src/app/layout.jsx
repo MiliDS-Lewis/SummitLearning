@@ -14,9 +14,9 @@ const roboto = Roboto_Flex({
 })
 
 export const metadata = {
-  title: 'Summit Learning  - Creating a brighter future for your child',
+  title: 'Summit Learning  - Creating a brighter future for your student',
   description:
-    'At Summit Learning, we believe every child deserves a brighter future. and strive to give every student a personalized education that will promote their individual strengths and creativity.',
+    'At Summit Learning, we believe every student deserves a brighter future. and strive to give every student a personalized education that will promote their individual strengths and creativity.',
 }
 
 export default function RootLayout({ children }) {

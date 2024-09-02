@@ -1,11 +1,11 @@
 ---
 name: GCSE
-dropdownDescription: GCSEs are key qualifications for UK students aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
+dropdownDescription: GCSEs are key qualifications for UK children aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
 featured: true
 hero:
-  tagline: Where great students grow
+  tagline: Where great children grow
   headline: Summit Learning's GCSE Program
-  text: GCSEs are key qualifications for UK students aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
+  text: GCSEs are key qualifications for UK children aged 14 to 16, covering a broad range of subjects and essential for future education and career paths.
   action:
     label: Enroll today
     href: '#'
@@ -13,7 +13,7 @@ hero:
   image:
     src: '/images/stock/elementary-school.jpg'
 infoSection:
-  headline: The Elementary School dedicated to your child's success
+  headline: The Elementary School dedicated to your student's success
   text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
   ages: 4 - 5 years old
   dates: Jan. 13 - Jun. 31
@@ -44,8 +44,8 @@ descriptionSection:
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
   tagline: Our Elementary School Plans
-  headline: A program for every parent and child
-  text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
+  headline: A program for every parent and student
+  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
     price: $1.2k

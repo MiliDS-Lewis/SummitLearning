@@ -11,7 +11,7 @@ const ProgramCard = ({ program, index }) => (
   <div
     className={clsx(
       index == 1 &&
-        'mt-12 w-full rounded-3xl bg-yellow-200 px-8 py-10 sm:p-12 md:mt-0 md:-translate-y-80 md:px-8 md:py-10 lg:p-12',
+        'mt-12 w-full rounded-3xl bg-green-200 px-8 py-10 sm:p-12 md:mt-0 md:-translate-y-80 md:px-8 md:py-10 lg:p-12',
       index == 2 &&
         'mt-12 w-full rounded-3xl bg-blue-50 px-8 py-10 sm:p-12 md:col-start-2 md:mt-0 md:-translate-y-80 md:px-8 md:py-10 lg:p-12',
       'relative',
@@ -20,8 +20,8 @@ const ProgramCard = ({ program, index }) => (
     {index == 0 && (
       <Image
         src={curvedDottedLine}
-        className="absolute left-1/2 top-0 hidden -translate-y-1/2 md:block"
-        style={{ width: 'calc(50% + 4rem)' }}
+        className="absolute left-3/4 top-0 hidden -translate-y-1/4 md:block"
+        style={{ width: 'calc(30% + 4rem)' }}
         alt=""
       />
     )}
@@ -33,8 +33,8 @@ const ProgramCard = ({ program, index }) => (
     >
       <div className="flex flex-col justify-between">
         <div className="flex-1">
-          <h3 className="h3 text-purple-900">{program.data.name}</h3>
-          <p className="mt-3 max-w-2xl text-lg leading-loose text-purple-800">
+          <h3 className="h3 text-gray-900">{program.data.name}</h3>
+          <p className="mt-3 max-w-2xl text-lg leading-loose text-blue-800">
             {program.data.hero.text}
           </p>
           <div className="aspect-h-2 aspect-w-3 relative mt-8">
@@ -62,8 +62,8 @@ const ProgramCard = ({ program, index }) => (
     {index == 0 && (
       <Image
         src={loopedDottedLine}
-        className="absolute bottom-0 left-1/2 hidden translate-y-[90%] md:block"
-        style={{ width: 'calc(50% + 4rem)' }}
+        className="absolute bottom-0 left-1/2 hidden translate-y-[80%] md:block"
+        style={{ width: 'calc(25% + 4rem)' }}
         alt=""
       />
     )}
@@ -73,31 +73,34 @@ const ProgramCard = ({ program, index }) => (
 export const FeaturedPrograms = () => {
   const featuredPrograms = getAllItems('programs')
     .filter((program) => program.data.featured)
-    .slice(0, 3)
+    .slice(0, 4)
 
   return (
-    <section className="overflow-hidden px-4 pb-24 pt-16 sm:px-6 sm:pb-28 sm:pt-24 md:pb-0 lg:px-8">
+    <section className="overflow-hidden px-4 pb-0 pt-16 sm:px-6 sm:pb-60 sm:pt-24 lg:px-8">
       {/* Container */}
       <div className="mx-auto max-w-xl md:max-w-screen-xl">
         {/* Section header title and subtext  */}
         <div className="md:grid md:grid-cols-2 md:gap-12 lg:gap-16">
           <div>
-            <h2 className="h2 max-w-4xl text-purple-900">
-              The best education programs for your child
+            <h2 className="h2 max-w-4xl text-gray-900">
+              The best education programs for your student
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-purple-800 sm:mt-5 lg:text-left">
+            <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-blue-800 sm:mt-5 lg:text-left">
             At Summit Learning, we offer the best education programs tailored to your child’s unique needs. Our expert tutors design personalized learning plans that cater to each student’s strengths and areas for growth. 
             </p>
           </div>
         </div>
         {/* School programs */}
-        <div className="mt-16 md:mt-72 md:grid md:grid-cols-2 md:gap-8 lg:gap-16">
+        <div className="mt-16 md:grid md:grid-cols-2 md:gap-8 lg:gap-16">
           {featuredPrograms.map((program, index) => (
+         <>
             <ProgramCard
               key={`featured-program-${program.data.name}`}
               program={program}
               index={index}
-            />
+            />  
+         {    console.log(program)}
+             </>
           ))}
         </div>
       </div>

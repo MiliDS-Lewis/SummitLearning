@@ -12,7 +12,7 @@ const assurances = [
   'An advanced degree',
   'Amazing recommendations and positive reviews',
   'A love and passion for teaching and helping children grow and succeed',
-  'A commitment to creating a positive classroom experience for all students, no matter their learning needs',
+  'A commitment to creating a positive classroom experience for all children, no matter their learning needs',
 ]
 
 export const StaffAssurances = () => {
@@ -28,11 +28,11 @@ export const StaffAssurances = () => {
           {/* Text content */}
           <div className="flex flex-col justify-center lg:order-2 lg:col-span-1 xl:col-span-6">
             <div>
-              <span className="inline-block rounded-lg bg-blue-200 px-4 py-2 font-medium text-white shadow-md">
-                Your students are in good hands
+              <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
+                Your children are in good hands
               </span>
             </div>
-            <h2 className="h2 mt-4 text-black sm:mt-5">
+            <h2 className="h2 mt-4 text-gray-900 sm:mt-5">
               Meet the tutors behind Summit Learning
             </h2>
             <p className="mt-4 max-w-xl text-xl leading-relaxed text-blue-800 md:mt-5">

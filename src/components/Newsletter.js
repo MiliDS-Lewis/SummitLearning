@@ -24,7 +24,7 @@ export const Newsletter = () => {
           </h2>
           <div className="relative">
             <p className="mt-3 max-w-lg text-center text-lg leading-relaxed text-purple-50 lg:mt-4 lg:text-left lg:text-xl">
-              Don't miss out on your child's education. We send information on
+              Don't miss out on your student's education. We send information on
               important events and dates to our parents once a month. Sign up
               below!
             </p>

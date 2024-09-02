@@ -1,10 +1,10 @@
 ---
 name: Exam Boards
-dropdownDescription: We teach according to the leading exam boards' curricula, ensuring our students are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
+dropdownDescription: We teach according to the leading exam boards' curricula, ensuring our children are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
 hero:
-  tagline: Where great students grow
+  tagline: Where great children grow
   headline: Summit Learning's Exam Board
-  text: We teach according to the leading exam boards' curricula, ensuring our students are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
+  text: We teach according to the leading exam boards' curricula, ensuring our children are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
   action:
     label: Enroll today
     href: '#'
@@ -12,7 +12,7 @@ hero:
   image:
     src: '/images/stock/summer-camp.jpg'
 infoSection:
-  headline: The Summer Camp dedicated to your child's success
+  headline: The Summer Camp dedicated to your student's success
   text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
   ages: 4 - 5 years old
   dates: Jan. 13 - Jun. 31
@@ -43,8 +43,8 @@ descriptionSection:
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
   tagline: Our Summer Camp Plans
-  headline: A program for every parent and child
-  text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
+  headline: A program for every parent and student
+  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
     price: $1.2k

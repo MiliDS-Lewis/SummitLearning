@@ -23,9 +23,9 @@ const links = [
     icon: 'messages',
   },
   {
-    label: 'Child Care Checklist',
+    label: 'Student Care Checklist',
     href: '#0',
-    description: 'Confidently choose the best program for your child',
+    description: 'Confidently choose the best program for your student',
     icon: 'listCheck',
   },
   {
@@ -37,7 +37,7 @@ const links = [
   {
     label: 'Covid Response',
     href: '#0',
-    description: "Learn what we're doing to keep your child safe",
+    description: "Learn what we're doing to keep your student safe",
     icon: 'virus',
   },
   {
@@ -69,12 +69,12 @@ export const ParentsHero = () => {
         {/* Section header text */}
         <div className="flex flex-col justify-center lg:col-span-5">
           <div>
-            <span className="inline-block -rotate-1 rounded-full bg-purple-200 px-4 py-2 font-medium text-purple-700 shadow-md">
+            <span className="inline-block rounded-md bg-purple-200 px-4 py-1 font-medium text-purple-700 shadow-md">
               Now enrolling for preschool
             </span>
           </div>
           <div className="relative">
-            <h1 className="h1 mt-4 max-w-xl text-purple-900 sm:mt-5 lg:max-w-none">
+            <h1 className="h1 mt-4 max-w-xl text-gray-900 sm:mt-5 lg:max-w-none">
               Stay in the loop
             </h1>
             {/* Arrow to links */}

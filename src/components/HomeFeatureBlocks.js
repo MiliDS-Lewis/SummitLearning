@@ -22,19 +22,19 @@ const features = [
 const blocks = [
   {
     tagline: 'An eclectic approach to education',
-    headline: "Our goal is to ensure your child's success in life",
-    text: "At Summit Learning, we embrace an eclectic approach to education, combining diverse teaching methods to suit each student's unique needs. Our dedicated tutors tailor their strategies to foster individual strengths and address areas for improvement. By focusing on a well-rounded and personalized educational experience, we aim to equip your child with the skills, knowledge, and confidence needed for long-term success and a fulfilling future.",
+    headline: "Our goal is to ensure your student's success in life",
+    text: "At Summit Learning, we embrace an eclectic approach to education, combining diverse teaching methods to suit each student's unique needs. Our dedicated tutors tailor their strategies to foster individual strengths and address areas for improvement. By focusing on a well-rounded and personalized educational experience, we aim to equip your student with the skills, knowledge, and confidence needed for long-term success and a fulfilling future.",
     action: { label: 'Learn more', href: '/about', icon: true },
     portraitImage: { src: portraitImage1, alt: 'Kid stacking blocks' },
-    squareImage: { src: squareImage1, alt: 'Children writing on workbook' },
+    squareImage: { src: squareImage1, alt: 'Students writing on workbook' },
   },
   {
-    tagline: 'A second home for your child',
+    tagline: 'A second home for your student',
     headline: 'We provide an environment that enables students to thrive',
-    text: 'At Summit Learning, we create a nurturing and supportive environment that feels like a second home for your child. Our welcoming and dedicated tutors foster a positive atmosphere where students feel comfortable and inspired to learn. By offering personalized attention and a caring approach, we ensure that each student can thrive academically and personally, reaching their full potential with confidence and enthusiasm.',
+    text: 'At Summit Learning, we create a nurturing and supportive environment that feels like a second home for your student. Our welcoming and dedicated tutors foster a positive atmosphere where students feel comfortable and inspired to learn. By offering personalized attention and a caring approach, we ensure that each student can thrive academically and personally, reaching their full potential with confidence and enthusiasm.',
     action: { label: 'Learn more', href: '/about', icon: true },
-    portraitImage: { src: portraitImage2, alt: 'Child covered in paint' },
-    squareImage: { src: squareImage2, alt: 'Children eating' },
+    portraitImage: { src: portraitImage2, alt: 'Student covered in paint' },
+    squareImage: { src: squareImage2, alt: 'Students eating' },
   },
 ]
 
@@ -47,10 +47,10 @@ export const HomeFeatureBlocks = () => {
         <div className="relative">
           {/* Block title and subtext */}
           <h2 className="h2 mx-auto max-w-4xl text-center text-gray-900">
-            Providing the best tailored support to your child's education
+            Providing the best tailored support to your student's education
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-800">
-          At Summit Learning, we provide personalized support tailored to your child's unique needs and learning style. Our expert tutors deliver targeted assistance to help students excel and achieve their academic goals. We focus on fostering growth, confidence, and success through a customized educational experience.
+          At Summit Learning, we provide personalized support tailored to your student's unique needs and learning style. Our expert tutors deliver targeted assistance to help students excel and achieve their academic goals. We focus on fostering growth, confidence, and success through a customized educational experience.
           </p>
           {/* Feature list */}
           <div className="mx-auto mt-12 max-w-3xl">
@@ -132,7 +132,7 @@ export const HomeFeatureBlocks = () => {
               )}
             >
               <div>
-                <span className="inline-block rounded-md bg-blue-200 px-4 py-2 font-medium text-white shadow-md">
+                <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
                   {block.tagline}
                 </span>
               </div>

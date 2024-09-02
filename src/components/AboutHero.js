@@ -10,7 +10,7 @@ import image5 from '/public/images/stock/school-grid-05.jpg'
 const images = [
   { src: image1, alt: 'Child laughing with teacher' },
   { src: image2, alt: 'Teacher portrait' },
-  { src: image3, alt: 'Teacher reading to students' },
+  { src: image3, alt: 'Teacher reading to children' },
   { src: image4, alt: 'Child writing on board with teacher' },
   { src: image5, alt: 'Classroom' },
 ]
@@ -22,14 +22,11 @@ export function AboutHero() {
       <div className="mx-auto max-w-screen-xl">
         {/* Page header */}
         <div className="relative">
-          <h2 className="h1 mx-auto max-w-3xl text-center text-blue-900">
-            Why Summit Learning
+          <h2 className="h1 mx-auto max-w-3xl text-center text-gray-900">
+            Why Summit Learning?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-xl leading-relaxed text-blue-800 sm:mt-5">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean
-            et tortor at risus viverra adipiscing at in.
-          </p>
+          At Summit Learning, we are dedicated to providing a personalized education that caters to each student’s unique needs and learning style. Our experienced tutors focus on building a strong foundation of knowledge while fostering creativity and critical thinking skills. We believe that every child has the potential to excel, and our tailored approach ensures they receive the support they need to succeed.          </p>
         </div>
         {/* School images grid */}
         <div className="mt-14 grid grid-flow-row-dense grid-cols-2 gap-2 sm:mt-16 sm:grid-cols-3 sm:gap-3 md:gap-4 lg:mt-24 lg:gap-6">
@@ -59,22 +56,13 @@ export function AboutHero() {
         {/* About school */}
         <div className="prose prose-lg mx-auto mt-14 sm:prose-xl sm:mt-16 lg:mt-24">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl
-            pretium fusce id velit ut. Id porta nibh venenatis cras sed felis
-            eget velit. Ut morbi tincidunt augue interdum velit. Ipsum faucibus
-            vitae aliquet nec ullamcorper sit amet. Viverra orci sagittis eu
-            volutpat odio facilisis mauris. Diam quis enim lobortis scelerisque
-            fermentum. Viverra mauris in aliquam sem fringilla.
-          </p>
+          Our students thrive in a positive, encouraging environment where they are motivated to reach their academic goals. Whether preparing for A-levels, GCSEs, or developing study habits, we are committed to helping each student achieve their best.
+
+</p>
           <p>
-            Elementum nisi quis eleifend quam adipiscing vitae proin sagittis
-            nisl. Viverra vitae congue eu consequat ac felis donec et odio.
-            Euismod nisi porta lorem mollis aliquam ut porttitor. Sed nisi lacus
-            sed viverra tellus. Augue lacus viverra vitae congue eu consequat ac
-            felis donec. Elementum pulvinar etiam non quam lacus. Ut venenatis
-            tellus in metus vulputate. Ultrices dui sapien eget mi proin sed
-            libero enim. Id velit ut tortor pretium viverra suspendisse.
+          Our approach is rooted in understanding that education is not one-size-fits-all. By adapting our teaching methods to match each student’s strengths, we create a learning experience that is both effective and enjoyable. At Summit Learning, we aim to inspire a lifelong love of learning and equip students with the tools they need for future success.
+
+We take pride in the success stories of our students and the trust parents place in us to guide their children on the path to academic achievement. Join us at Summit Learning and discover the difference a personalized education can make.
           </p>
         </div>
       </div>

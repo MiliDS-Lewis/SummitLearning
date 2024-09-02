@@ -10,7 +10,7 @@ export const Staff = () => {
   return (
     <section id="team">
       {/* Top purple background section */}
-      <div className="bg-purple-600 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <div className="bg-blue-600 px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         {/* Section header text */}
         <div className="mx-auto max-w-2xl lg:max-w-screen-xl">
           <div className="lg:grid lg:grid-cols-2 lg:gap-16">
@@ -20,7 +20,7 @@ export const Staff = () => {
               </h3>
             </div>
             <div className="flex items-center">
-              <p className="mt-5 text-xl leading-relaxed text-purple-50 sm:text-center lg:mt-0 lg:text-left">
+              <p className="mt-5 text-xl leading-relaxed text-white sm:text-center lg:mt-0 lg:text-left">
                 Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
                 dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
                 sem. Quisque velit nisi, pretium ut lacinia in, elementum id
@@ -31,7 +31,7 @@ export const Staff = () => {
         </div>
       </div>
       {/* background to create overlay effect */}
-      <div className="h-32 w-full bg-purple-600" />
+      <div className="h-32 w-full bg-blue-600" />
       {/* Team section */}
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl -translate-y-32 lg:max-w-screen-xl">
@@ -51,10 +51,10 @@ export const Staff = () => {
                 {/* Staff member info */}
                 <div className="flex items-center justify-between">
                   <div className="mt-3 text-xl font-medium">
-                    <p className="font-semibold tracking-wide text-purple-900">
+                    <p className="font-semibold tracking-wide text-gray-900">
                       {member.data.name}
                     </p>
-                    <p className="text-lg text-purple-600">
+                    <p className="text-lg text-gray-600">
                       {member.data.role}
                     </p>
                   </div>
@@ -67,7 +67,7 @@ export const Staff = () => {
                       >
                         <Icon
                           icon={socialLink.name}
-                          className="durarion-300 h-[22px] w-[22px] text-purple-600 transition ease-in-out hover:text-purple-500"
+                          className="durarion-300 h-[22px] w-[22px] text-gray-600 transition ease-in-out hover:text-gray-500"
                         />
                       </Link>
                     ))}

@@ -1,10 +1,11 @@
 ---
 name: A-Levels
-dropdownDescription: A-levels are advanced qualifications for UK students aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
+dropdownDescription: A-levels are advanced qualifications for UK children aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
+featured: true
 hero:
-  tagline: Where great students grow
+  tagline: Where great children grow
   headline: Summit Learning's A-level Program
-  text: A-levels are advanced qualifications for UK students aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
+  text: A-levels are advanced qualifications for UK children aged 16 to 18, focusing on specialized subjects and critical for university admission and career development.
   action:
     label: Enroll today
     href: '#'
@@ -12,7 +13,7 @@ hero:
   image:
     src: '/images/stock/kindergarten.jpg'
 infoSection:
-  headline: The Kindergarten dedicated to your child's success
+  headline: The Kindergarten dedicated to your student's success
   text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
   ages: 4 - 5 years old
   dates: Jan. 13 - Jun. 31
@@ -43,8 +44,8 @@ descriptionSection:
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
   tagline: Our Kindergarten Plans
-  headline: A program for every parent and child
-  text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
+  headline: A program for every parent and student
+  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
     price: $1.2k

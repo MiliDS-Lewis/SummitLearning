@@ -34,10 +34,10 @@ export const Values = () => {
         <div className="lg:grid lg:grid-cols-2 lg:gap-10 xl:gap-16">
           {/* Section content */}
           <div className="flex flex-col justify-center">
-            <h2 className="h2 text-purple-900 sm:text-center lg:text-left">
+            <h2 className="h2 text-gray-900 sm:text-center lg:text-left">
               Our core values and principles
             </h2>
-            <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-purple-800 sm:text-center md:mt-5 lg:mx-0 lg:text-left">
+            <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-gray-800 sm:text-center md:mt-5 lg:mx-0 lg:text-left">
               Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut
               libero malesuada feugiat. Donec rutrum congue leo eget malesuada.
               Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
@@ -50,10 +50,10 @@ export const Values = () => {
                     <Image src={checkmark} className="h-7 w-7" alt="" />
                   </div>
                   <div className="w-full">
-                    <h5 className="flex items-center text-xl font-semibold text-purple-900">
+                    <h5 className="flex items-center text-xl font-semibold text-gray-900">
                       {item.value}
                     </h5>
-                    <p className="mt-1 text-base text-purple-800">
+                    <p className="mt-1 text-base text-gray-800">
                       {item.description}
                     </p>
                   </div>
@@ -69,7 +69,7 @@ export const Values = () => {
                 fill
                 src={image}
                 sizes="(min-width: 1280px) 38rem, (min-width: 1024px) 50vw, (min-width: 576px) 36rem, 100vw"
-                alt="Parent carrying child"
+                alt="Parent carrying student"
               />
             </div>
           </div>

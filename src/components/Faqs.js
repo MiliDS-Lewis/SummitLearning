@@ -14,12 +14,10 @@ export const Faqs = ({ faqs }) => {
       {/* Container */}
       <div className="mx-auto px-4 sm:px-6 lg:max-w-screen-lg lg:px-8">
         {/* Section header title and subtext  */}
-        <div className="max-w-2xl">
-          <h2 className="h2 text-blue-900">Frequently asked questions</h2>
-          <p className="mt-4 max-w-2xl text-xl leading-relaxed text-blue-800 lg:text-left">
-            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-            sem.
+        <div className="w-full">
+          <h2 className="h2 text-gray-900">Frequently asked questions</h2>
+          <p className="mt-4 text-xl leading-relaxed text-blue-800 lg:text-left">
+          Have questions about Summit Learning? We've compiled answers to the most common inquiries from parents and children. Explore our FAQs to learn more about our programs, tutoring approach, and how we can help your student succeed.
           </p>
         </div>
         {/* FAQ */}

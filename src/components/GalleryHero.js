@@ -21,7 +21,7 @@ export const GalleryHero = () => {
         {/* Hero header text */}
         <div className="relative">
           <div className="flex justify-center">
-            <span className="inline-block -rotate-1 rounded-full bg-blue-200 px-4 py-2 font-medium text-blue-700 shadow-md">
+            <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
               Creating memories for life
             </span>
           </div>

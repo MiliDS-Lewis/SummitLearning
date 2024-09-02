@@ -40,7 +40,7 @@ export const AlternatingFeatures = () => {
       <div className="mx-auto max-w-screen-xl">
         {/* Section header */}
         <div className="px-4 text-center sm:px-6 lg:px-8">
-          <h3 className="h2 text-blue-900">
+          <h3 className="h2 text-gray-900">
             <span className="block">A place for every child to</span>
             {/* Underlined text */}
             <span className="relative block">
@@ -69,12 +69,12 @@ export const AlternatingFeatures = () => {
               )}
             >
               <div>
-                <span className="inline-block -rotate-1 rounded-full bg-blue-200 px-4 py-2 font-medium text-blue-700 shadow-md">
+                <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
                   {block.tagline}
                 </span>
               </div>
               <div>
-                <h1 className="h3 mt-3.5 font-bold text-blue-900">
+                <h1 className="h3 mt-3.5 font-bold text-gray-900">
                   {block.headline}
                 </h1>
                 <p className="mt-3 max-w-xl text-lg text-blue-800 sm:text-xl sm:leading-relaxed">

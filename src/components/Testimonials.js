@@ -8,7 +8,7 @@ const bgColorsClassName = [
   'bg-yellow-200',
   'bg-purple-25',
   'bg-rose-50',
-  'bg-blue-50',
+  'bg-green-50',
 ]
 
 export const Testimonials = () => {
@@ -24,9 +24,7 @@ export const Testimonials = () => {
             See what parents are saying about us
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-50">
-            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-            dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-            sem.
+          Discover why parents trust Summit Learning to support their student's academic journey. Read firsthand experiences and testimonials from families who have seen their children thrive with our personalized approach to education.
           </p>
         </div>
 
