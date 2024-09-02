@@ -76,7 +76,7 @@ export const FeaturedPrograms = () => {
     .slice(0, 4)
 
   return (
-    <section className="overflow-hidden px-4 pb-0 pt-16 sm:px-6 sm:pb-60 sm:pt-24 lg:px-8">
+    <section className="overflow-hidden px-4 pb-12 pt-16 sm:px-6 sm:pb-60 sm:pt-24 lg:px-8">
       {/* Container */}
       <div className="mx-auto max-w-xl md:max-w-screen-xl">
         {/* Section header title and subtext  */}
