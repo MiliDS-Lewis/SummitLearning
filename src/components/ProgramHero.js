@@ -5,7 +5,7 @@ import { Button } from '@/components/Button'
 
 export const ProgramHero = ({ hero }) => {
   return (
-    <section className="relative bg-gradient-to-b from-blue-50 to-blue-200 px-4 pt-16 sm:px-6 lg:px-8">
+    <section className="relative bg-gradient-to-b from-blue-50 to-blue-200 px-4 pt-16 md:pb-0 pb-6 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-screen-xl">
         {/* Header */}
         <div className="relative">
@@ -14,10 +14,10 @@ export const ProgramHero = ({ hero }) => {
               {hero.tagline}
             </span>
           </div>
-          <h2 className="h1 mx-auto mt-4 max-w-3xl text-center text-gray-900">
+          <h2 className="h1 mx-auto mt-4 max-w-5xl text-center text-gray-900">
             {hero.headline}
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-xl leading-relaxed text-blue-800 sm:mt-5">
+          <p className="mx-auto mt-4 max-w-2xl text-center text-xl leading-relaxed text-gray-800 sm:mt-5">
             {hero.text}
           </p>
           {/* CTA button */}

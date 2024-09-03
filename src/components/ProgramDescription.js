@@ -64,7 +64,7 @@ export const ProgramDescription = ({ data }) => {
           </div>
           <div className="order-1 flex flex-col justify-center lg:order-2 lg:py-36">
             <div
-              className="prose prose-lg prose-invert relative z-20 mx-auto sm:prose-xl"
+              className="prose text-white prose-lg prose-invert relative z-20 mx-auto sm:prose-xl"
               dangerouslySetInnerHTML={{ __html: marked.parse(data.text) }}
             ></div>
           </div>

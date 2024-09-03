@@ -35,7 +35,7 @@ export const StaffAssurances = () => {
             <h2 className="h2 mt-4 text-gray-900 sm:mt-5">
               Meet the tutors behind Summit Learning
             </h2>
-            <p className="mt-4 max-w-xl text-xl leading-relaxed text-blue-800 md:mt-5">
+            <p className="mt-4 max-w-xl text-xl leading-relaxed text-gray-800 md:mt-5">
             At Summit Learning, our team of expert tutors is at the heart of our mission to foster academic excellence. Each tutor brings a wealth of knowledge and a genuine passion for teaching, ensuring personalized and effective support for every student.
             </p>
             {/* Teacher qualifications box */}
@@ -44,12 +44,12 @@ export const StaffAssurances = () => {
                 <Icon icon="certificate" className="h-8 w-8 text-blue-50" />
               </span>
               <div className="mt-2 px-4 py-10 sm:px-10 sm:py-12">
-                <p className="text-lg font-semibold text-blue-900 sm:text-xl">
+                <p className="text-lg font-semibold text-gray-900 sm:text-xl">
                   At Summit Learning, we pride ourselves on the quality of our
                   teachers. You can expect the following from our teachers:
                 </p>
                 {/* Teacher qualifications list */}
-                <ul className="mt-5 space-y-5 text-lg text-blue-800">
+                <ul className="mt-5 space-y-5 text-lg text-gray-800">
                   {assurances.map((assurance, index) => (
                     <li
                       key={`assurance-${index}`}
@@ -69,12 +69,12 @@ export const StaffAssurances = () => {
                   href="/about#team"
                   variant="accent"
                   size="sm"
-                  className="mt-10"
+                  className="mt-10 text-white"
                 >
                   Meet the rest of the team
                   <Icon
                     icon="arrowNarrowRight"
-                    className="ml-3 h-5 w-5 group-hover:animate-horizontal-bounce"
+                    className="ml-3 h-5 w-5 text-white group-hover:animate-horizontal-bounce"
                     stroke={2}
                   />
                 </Button>
@@ -98,7 +98,7 @@ export const StaffAssurances = () => {
                   />
                 </div>
                 <div className="mt-3.5 pl-2 text-lg sm:pl-0 sm:text-center">
-                  <p className="font-semibold tracking-wide text-blue-800">
+                  <p className="font-semibold tracking-wide text-gray-800">
                     {member.data.name}
                   </p>
                   <p className="text-base font-medium text-blue-600">

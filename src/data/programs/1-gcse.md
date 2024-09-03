@@ -13,39 +13,38 @@ hero:
   image:
     src: '/images/stock/elementary-school.jpg'
 infoSection:
-  headline: The Elementary School dedicated to your student's success
-  text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-  ages: 4 - 5 years old
-  dates: Jan. 13 - Jun. 31
-  schedule: M-F from 8AM - 5 PM
-  classSize: Student to teacher ratio of 10:1
+  headline: Tutor's dedicated to your student's success
+  text: At Summit Learning, our tutors are committed to guiding your student to GCSE success. Through personalized instruction and expert teaching, we provide the support needed to build confidence and achieve academic goals. Trust us to equip your student with the tools and encouragement to excel.
+  ages: 14 - 16 years old
+  dates: Academic year
+  schedule: M-F from 8AM - 9 PM
+  classSize: "1:1"
 descriptionSection:
   text: >
-    ## Our unique approach to education
-            
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut. Id porta nibh venenatis cras sed felis eget velit. Ut morbi tincidunt augue interdum velit. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Viverra orci sagittis eu volutpat odio facilisis mauris. Diam quis enim lobortis scelerisque fermentum. Viverra mauris in aliquam sem fringilla. 
-        
-    ### What they will learn
-          
-    * Vivamus suscipit tortor eget felis porttitor volutpat.
-
-    * Nulla porttitor accumsan tincidunt.
-
-    * Vivamus magna justo, lacinia eget consectetur sed.
-
-    * Lorem ipsum dolor sit amet
-
-    * Ut enim ad minim veniam
-
-
-    Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Viverra vitae congue eu consequat ac felis donec et odio. Euismod nisi porta lorem mollis aliquam ut porttitor. Sed nisi lacus sed viverra tellus. Augue lacus viverra vitae congue eu consequat ac felis donec. Elementum pulvinar etiam non quam lacus. Ut venenatis tellus in metus vulputate. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse.
+    ## Our Unique Approach to GCSE Tutoring
+    
+    At Summit Learning, our GCSE tutoring program is designed to provide personalized support that aligns with each student's individual needs and learning style. We focus on building a solid foundation in key subjects, ensuring students not only understand the material but also develop the critical thinking skills needed to excel in their exams. Our experienced tutors work closely with each student, offering targeted guidance and strategies to boost confidence and academic performance.
+    
+    ### What They Will Learn
+    
+    * Mastery of core subjects through tailored instruction.
+    
+    * Effective study techniques and exam strategies.
+    
+    * Critical thinking and problem-solving skills.
+    
+    * In-depth understanding of challenging topics.
+    
+    * Time management and organizational skills for exam preparation.
+    
+    Our approach goes beyond just covering the curriculum. We aim to inspire a love for learning and help students develop the skills they need to succeed not just in their GCSEs, but in their future academic pursuits. With our support, students are well-prepared to tackle their exams with confidence and achieve their full potential.
   portraitImage: '/images/stock/program-description-01.jpg'
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Elementary School Plans
+  tagline: Our GCSE Plans
   headline: A program for every parent and student
-  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
+  text: We know you care about your children's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
     price: $1.2k

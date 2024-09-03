@@ -52,7 +52,7 @@ export const ContactHero = () => {
           <h1 className="h1 mt-4 max-w-md text-gray-900">
             We'd love to hear from you
           </h1>
-          <p className="mt-3 max-w-xl text-xl leading-relaxed text-blue-800">
+          <p className="mt-3 max-w-xl text-xl leading-relaxed text-gray-800">
           Whether you have questions about our programs, need more information, or are ready to get started, we're here to help. Reach out to us by phone, email, or through our contact form. Our team at Summit Learning is eager to assist you in finding the right educational support for your child. Let's start a conversation about how we can help your child achieve their academic goals.
           </p>
         </div>

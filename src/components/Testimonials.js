@@ -23,7 +23,7 @@ export const Testimonials = () => {
           <h2 className="h2 max-w-2xl text-center text-white">
             See what parents are saying about us
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-50">
+          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-white">
           Discover why parents trust Summit Learning to support their student's academic journey. Read firsthand experiences and testimonials from families who have seen their children thrive with our personalized approach to education.
           </p>
         </div>
@@ -45,7 +45,7 @@ export const Testimonials = () => {
                 className="h-20 w-20 rounded-full border-2 border-yellow-300 object-cover drop-shadow-2xl filter"
                 alt={item.data.name}
               />
-              <p className="mt-3 text-lg font-bold text-blue-900">
+              <p className="mt-3 text-lg font-bold text-gray-900">
                 {item.data.name}
               </p>
               {/* Rating */}
@@ -58,7 +58,7 @@ export const Testimonials = () => {
                   />
                 ))}
               </div>
-              <p className="mt-5 text-lg text-blue-800">
+              <p className="mt-5 text-lg text-gray-800">
                 "{item.data.testimonial}"
               </p>
             </blockquote>

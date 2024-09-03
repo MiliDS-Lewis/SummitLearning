@@ -34,7 +34,7 @@ const ProgramCard = ({ program, index }) => (
       <div className="flex flex-col justify-between">
         <div className="flex-1">
           <h3 className="h3 text-gray-900">{program.data.name}</h3>
-          <p className="mt-3 max-w-2xl text-lg leading-loose text-blue-800">
+          <p className="mt-3 max-w-2xl text-lg leading-loose text-gray-800">
             {program.data.hero.text}
           </p>
           <div className="aspect-h-2 aspect-w-3 relative mt-8">
@@ -85,7 +85,7 @@ export const FeaturedPrograms = () => {
             <h2 className="h2 max-w-4xl text-gray-900">
               The best education programs for your student
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-blue-800 sm:mt-5 lg:text-left">
+            <p className="mx-auto mt-4 max-w-2xl text-xl leading-relaxed text-gray-800 sm:mt-5 lg:text-left">
             At Summit Learning, we offer the best education programs tailored to your child’s unique needs. Our expert tutors design personalized learning plans that cater to each student’s strengths and areas for growth. 
             </p>
           </div>

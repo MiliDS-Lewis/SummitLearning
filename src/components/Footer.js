@@ -43,7 +43,7 @@ export const Footer = ({ programs, contact }) => {
             </div>
           </div>
           {/* Mission statement */}
-          <div className="mt-6 text-lg text-blue-800">
+          <div className="mt-6 text-lg text-gray-800">
           Empowering Students, Achieving Excellence. The best tutors for your student.
           </div>
           {/* Social links */}
@@ -112,15 +112,15 @@ export const Footer = ({ programs, contact }) => {
             {/* Address */}
             <li className="flex max-w-xs flex-shrink">
               <div>
-                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-400">
-                  <Icon icon="mapPin" className="h-6 w-6 text-blue-700" />
+                <span className="flex h-11 w-11 items-center justify-center rounded-md bg-gray-400">
+                  <Icon icon="mapPin" className="h-6 w-6 text-white" />
                 </span>
               </div>
               <div className="ml-3 mt-0 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Address
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.address}
                 </p>
               </div>
@@ -128,15 +128,15 @@ export const Footer = ({ programs, contact }) => {
             {/* Email */}
             <li className="flex flex-shrink-0">
               <div>
-                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-200">
-                  <Icon icon="mail" className="h-6 w-6 text-blue-700" />
+                <span className="flex h-11 w-11 items-center justify-center rounded-md bg-blue-200">
+                  <Icon icon="mail" className="h-6 w-6 text-white" />
                 </span>
               </div>
               <div className="ml-3 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Email
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.email}
                 </p>
               </div>
@@ -144,15 +144,15 @@ export const Footer = ({ programs, contact }) => {
             {/* Phone number */}
             <li className="flex flex-shrink-0">
               <div>
-                <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-rose-200">
-                  <Icon icon="phone" className="h-6 w-6 text-blue-700" />
+                <span className="flex h-11 w-11 items-center justify-center rounded-md bg-blue-400">
+                  <Icon icon="phone" className="h-6 w-6 text-white" />
                 </span>
               </div>
               <div className="ml-3 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Phone
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.phone}
                 </p>
               </div>
@@ -163,10 +163,10 @@ export const Footer = ({ programs, contact }) => {
       {/* Bottom section */}
       <div className="mx-auto flex max-w-md flex-col justify-between py-8 sm:max-w-none sm:flex-row lg:max-w-screen-2xl">
         {/* Copyright note */}
-        <span className="text-base text-blue-800/90">
+        <span className="text-base text-gray-800/90">
           © {new Date().getFullYear()} Summit Learning. All rights reserved.
         </span>
-        <p className="mt-0.5 flex items-center text-blue-800/90">
+        <p className="md:mt-0.5 mt-4 flex items-center text-xs text-gray-800/90">
           Made by Mili
         </p>
       </div>

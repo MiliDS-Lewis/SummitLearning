@@ -30,32 +30,32 @@ export function Navbar({ programs }) {
           className={clsx(
             'absolute block h-1 rotate-0 transform rounded-full opacity-100 transition-all duration-300 ease-in-out',
             open
-              ? 'left-1/2 top-2 w-0 bg-blue-50 group-hover:bg-white'
-              : 'left-0 top-0 w-full bg-blue-900 group-hover:bg-blue-600',
+              ? 'left-1/2 top-2 w-0 bg-gray-50 group-hover:bg-white'
+              : 'left-0 top-0 w-full bg-gray-900 group-hover:bg-gray-600',
           )}
         />
         <span
           className={clsx(
-            'absolute left-0 top-2 block h-1 w-full transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-blue-600',
+            'absolute left-0 top-2 block h-1 w-full transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-white',
             open
-              ? 'rotate-45 bg-blue-50 group-hover:bg-white'
-              : 'rotate-0 bg-blue-900 group-hover:bg-blue-600',
+              ? 'rotate-45 bg-gray-50 group-hover:bg-white'
+              : 'rotate-0 bg-gray-900 group-hover:bg-gray-600',
           )}
         />
         <span
           className={clsx(
-            'absolute left-0 top-2 block h-1 w-full transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-blue-600',
+            'absolute left-0 top-2 block h-1 w-full transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-white',
             open
-              ? '-rotate-45 bg-blue-50 group-hover:bg-white'
-              : 'rotate-0 bg-blue-900 group-hover:bg-blue-600',
+              ? '-rotate-45 bg-gray-50 group-hover:bg-white'
+              : 'rotate-0 bg-gray-900 group-hover:bg-gray-600',
           )}
         />
         <span
           className={clsx(
-            'absolute block h-1 rotate-0 transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-blue-600',
+            'absolute block h-1 rotate-0 transform rounded-full opacity-100 transition-all duration-300 ease-in-out group-hover:bg-gray-600',
             open
-              ? 'left-1/2 top-2 w-0 bg-blue-50 group-hover:bg-white'
-              : 'left-0 top-4 w-full bg-blue-900 group-hover:bg-blue-600',
+              ? 'left-1/2 top-2 w-0 bg-gray-50 group-hover:bg-white'
+              : 'left-0 top-4 w-full bg-gray-900 group-hover:bg-gray-600',
           )}
         />
       </>
@@ -93,7 +93,7 @@ export function Navbar({ programs }) {
                       {link.label !== 'Programs' && (
                         <Link href={link.href}>
                           <div className="group relative p-0.5">
-                            <span className="relative z-10 text-2xl font-medium text-blue-50 duration-300 ease-in-out group-hover:text-white">
+                            <span className="relative z-10 text-2xl font-medium text-white duration-300 ease-in-out group-hover:text-white">
                               {link.label}
                             </span>
                             <span className="absolute -left-1 -right-1 bottom-0 h-0.5 origin-bottom scale-x-0 transform rounded-lg bg-blue-400 duration-300 ease-in-out group-hover:scale-x-100" />
@@ -122,7 +122,7 @@ export function Navbar({ programs }) {
                         )}
                       >
                         <div className="group relative p-0.5">
-                          <span className="relative z-10 text-xl font-medium text-blue-50 duration-300 ease-in-out group-hover:text-white">
+                          <span className="relative z-10 text-xl font-medium text-white duration-300 ease-in-out group-hover:text-white">
                             {program.data.name}
                           </span>
                           <span className="absolute -left-1 -right-1 bottom-0 h-0.5 origin-bottom scale-x-0 transform rounded-lg bg-blue-400 duration-300 ease-in-out group-hover:scale-x-100" />
@@ -156,7 +156,7 @@ export function Navbar({ programs }) {
                             <span
                               className={clsx(
                                 'relative z-10 flex items-center text-lg font-medium duration-300 ease-in-out group-hover:text-blue-600',
-                                open ? 'text-blue-600' : 'text-blue-700',
+                                open ? 'text-blue-600' : 'text-gray-900',
                               )}
                             >
                               Programs
@@ -205,7 +205,7 @@ export function Navbar({ programs }) {
                                       <h5 className="text-lg font-semibold text-blue-600">
                                         {program.data.name}
                                       </h5>
-                                      <p className="mt-1 text-sm text-blue-800 opacity-90">
+                                      <p className="mt-1 text-sm text-gray-800 opacity-90">
                                         {program.data.dropdownDescription}
                                       </p>
                                     </Link>
@@ -230,8 +230,8 @@ export function Navbar({ programs }) {
                         className={clsx(
                           'relative z-10 text-lg font-medium',
                           pathname === link.href
-                            ? 'text-blue-600'
-                            : 'text-blue-700 duration-300 ease-in-out group-hover:text-blue-600',
+                            ? 'text-gray-900'
+                            : 'text-gray-900 duration-300 ease-in-out group-hover:text-blue-600',
                         )}
                       >
                         {link.label}

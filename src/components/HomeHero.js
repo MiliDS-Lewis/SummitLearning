@@ -43,7 +43,7 @@ export const HomeHero = () => {
           <h1 className="h1 mt-4 max-w-xl text-center text-gray-900 sm:mt-5 lg:max-w-none lg:text-left">
             Empowering Academic Success!
           </h1>
-          <p className="mt-3 max-w-2xl text-center text-xl leading-loose text-blue-800 lg:text-left">
+          <p className="mt-3 max-w-2xl text-center text-xl leading-loose text-gray-800 lg:text-left">
             At Summit Learning, we guide GCSE and A-level students to their
             academic peak, nurturing their unique strengths and creativity
             through personalized education. Our goal is to ensure every student

@@ -49,7 +49,7 @@ export const HomeFeatureBlocks = () => {
           <h2 className="h2 mx-auto max-w-4xl text-center text-gray-900">
             Providing the best tailored support to your student's education
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-blue-800">
+          <p className="mx-auto mt-4 max-w-3xl text-center text-xl leading-relaxed text-gray-800">
           At Summit Learning, we provide personalized support tailored to your student's unique needs and learning style. Our expert tutors deliver targeted assistance to help students excel and achieve their academic goals. We focus on fostering growth, confidence, and success through a customized educational experience.
           </p>
           {/* Feature list */}
@@ -139,7 +139,7 @@ export const HomeFeatureBlocks = () => {
               <h3 className="h3 mt-4 text-gray-900 sm:mt-5">
                 {block.headline}
               </h3>
-              <p className="mt-3 max-w-2xl text-lg leading-loose text-blue-800">
+              <p className="mt-3 max-w-2xl text-lg leading-loose text-gray-800">
                 {block.text}
               </p>
               <div className="mt-6">

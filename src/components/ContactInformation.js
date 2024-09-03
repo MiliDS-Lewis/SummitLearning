@@ -22,18 +22,18 @@ export const ContactInformation = () => {
         {/* Contact information cards */}
         <div className="mt-12 grid grid-cols-1 gap-4 sm:mt-14 sm:grid-cols-4 sm:gap-6 lg:mt-20 lg:grid-cols-3 xl:gap-12">
           {/* Address card */}
-          <div className="rounded-3xl bg-yellow-200 px-4 py-8 sm:col-span-2 sm:p-8 lg:col-span-1">
+          <div className="rounded-3xl bg-gray-200 px-4 py-8 sm:col-span-2 sm:p-8 lg:col-span-1">
             <div className="flex sm:flex-col lg:flex-row">
               <div>
-                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-yellow-400">
-                  <Icon icon="mapPin" className="h-8 w-8 text-blue-700" />
+                <span className="flex h-14 w-14 items-center justify-center rounded-md bg-gray-400">
+                  <Icon icon="mapPin" className="h-8 w-8 text-white" />
                 </span>
               </div>
               <div className="ml-6 flex-1 sm:ml-0 sm:mt-3 lg:ml-6 lg:mt-0">
-                <h5 className="flex items-center text-xl font-semibold text-blue-900">
+                <h5 className="flex items-center text-xl font-semibold text-gray-900">
                   Address
                 </h5>
-                <p className="mt-1.5 text-base leading-relaxed text-blue-800">
+                <p className="mt-1.5 text-base leading-relaxed text-gray-800">
                   {contact.address}
                 </p>
               </div>
@@ -43,33 +43,33 @@ export const ContactInformation = () => {
           <div className="rounded-3xl bg-blue-50 px-4 py-8 sm:col-span-2 sm:p-8 sm:py-10 lg:col-span-1">
             <div className="flex sm:flex-col lg:flex-row">
               <div>
-                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-200">
-                  <Icon icon="mail" className="h-8 w-8 text-blue-700" />
+                <span className="flex h-14 w-14 items-center justify-center rounded-md bg-blue-200">
+                  <Icon icon="mail" className="h-8 w-8 text-white" />
                 </span>
               </div>
               <div className="ml-6 flex-1 sm:ml-0 sm:mt-3 lg:ml-6 lg:mt-0">
-                <h5 className="flex items-center text-xl font-semibold text-blue-900">
+                <h5 className="flex items-center text-xl font-semibold text-gray-900">
                   Email us
                 </h5>
-                <p className="mt-1.5 text-base leading-relaxed text-blue-800">
+                <p className="mt-1.5 text-base leading-relaxed text-gray-800">
                   {contact.email}
                 </p>
               </div>
             </div>
           </div>
           {/* Phone number card */}
-          <div className="rounded-3xl bg-rose-50 px-4 py-8 sm:col-span-2 sm:col-start-2 sm:p-8 sm:py-10 lg:col-span-1 lg:col-start-3">
+          <div className="rounded-3xl bg-blue-100 px-4 py-8 sm:col-span-2 sm:col-start-2 sm:p-8 sm:py-10 lg:col-span-1 lg:col-start-3">
             <div className="flex sm:flex-col lg:flex-row">
               <div>
-                <span className="flex h-14 w-14 items-center justify-center rounded-2xl bg-rose-200">
-                  <Icon icon="phone" className="h-8 w-8 text-blue-700" />
+                <span className="flex h-14 w-14 items-center justify-center rounded-md bg-blue-400">
+                  <Icon icon="phone" className="h-8 w-8 text-white" />
                 </span>
               </div>
               <div className="ml-6 flex-1 sm:ml-0 sm:mt-3 lg:ml-6 lg:mt-0">
-                <h5 className="flex items-center text-xl font-semibold text-blue-900">
+                <h5 className="flex items-center text-xl font-semibold text-gray-900">
                   Call us
                 </h5>
-                <p className="mt-1.5 text-base leading-relaxed text-blue-800">
+                <p className="mt-1.5 text-base leading-relaxed text-gray-800">
                   {contact.phone}
                 </p>
               </div>

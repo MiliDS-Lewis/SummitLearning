@@ -40,10 +40,10 @@ export const ProgramInformation = ({ data }) => {
         {/* Section header text */}
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 xl:gap-32">
           <div className="flex items-center">
-            <h2 className="h2 max-w-4xl text-purple-900">{data.headline}</h2>
+            <h2 className="h2 max-w-4xl text-gray-900">{data.headline}</h2>
           </div>
           <div className="mt-6 flex items-center lg:mt-0">
-            <p className="text-xl leading-relaxed text-purple-800">
+            <p className="text-xl leading-relaxed text-gray-800">
               {data.text}
             </p>
           </div>
@@ -90,10 +90,10 @@ export const ProgramInformation = ({ data }) => {
             icon="users"
             title="Class sizes"
             gradientColors={{
-              bgColor: 'bg-blue-50',
-              iconBgColor: 'bg-blue-200',
-              startColor: 'from-blue-100',
-              endColor: 'to-blue-300',
+              bgColor: 'bg-green-50',
+              iconBgColor: 'bg-green-200',
+              startColor: 'from-green-100',
+              endColor: 'to-green-300',
             }}
             text={data.classSize}
           />

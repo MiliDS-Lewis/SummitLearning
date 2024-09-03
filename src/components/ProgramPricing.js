@@ -12,14 +12,14 @@ export const ProgramPricing = ({ data }) => {
           {/* Section content */}
           <div className="flex flex-col justify-center pr-10 xl:pr-0">
             <div>
-              <span className="inline-block -rotate-1 rounded-full bg-purple-200 px-4 py-2 font-medium text-purple-700 shadow-md">
+              <span className="inline-block rounded-md bg-blue-200 px-4 py-1 font-medium text-white shadow-md">
                 {data.tagline}
               </span>
             </div>
-            <h2 className="h2 mt-3.5 max-w-xl text-purple-900 sm:mt-4">
+            <h2 className="h2 mt-3.5 max-w-xl text-gray-900 sm:mt-4">
               {data.headline}
             </h2>
-            <p className="mt-3 max-w-lg text-lg leading-relaxed text-purple-800">
+            <p className="mt-3 max-w-lg text-lg leading-relaxed text-gray-800">
               {data.text}
             </p>
             {/* Contact link */}

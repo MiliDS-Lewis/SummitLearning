@@ -26,10 +26,10 @@ export function ContactHeader({ contact }) {
                 </span>
               </div>
               <div className="ml-3 mt-0 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Address
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.address}
                 </p>
               </div>
@@ -43,10 +43,10 @@ export function ContactHeader({ contact }) {
                 </span>
               </div>
               <div className="ml-3 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Email
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.email}
                 </p>
               </div>
@@ -60,10 +60,10 @@ export function ContactHeader({ contact }) {
                 </span>
               </div>
               <div className="ml-3 flex-1 xl:ml-4">
-                <h5 className="flex items-center text-base font-semibold text-blue-900">
+                <h5 className="flex items-center text-base font-semibold text-gray-900">
                   Phone
                 </h5>
-                <p className="mt-0.5 text-sm leading-relaxed text-blue-800 text-opacity-90">
+                <p className="mt-0.5 text-sm leading-relaxed text-gray-800 text-opacity-90">
                   {contact.phone}
                 </p>
               </div>

@@ -25,7 +25,7 @@ export function AboutHero() {
           <h2 className="h1 mx-auto max-w-3xl text-center text-gray-900">
             Why Summit Learning?
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-center text-xl leading-relaxed text-blue-800 sm:mt-5">
+          <p className="mx-auto mt-4 max-w-2xl text-center text-xl leading-relaxed text-gray-800 sm:mt-5">
           At Summit Learning, we are dedicated to providing a personalized education that caters to each student’s unique needs and learning style. Our experienced tutors focus on building a strong foundation of knowledge while fostering creativity and critical thinking skills. We believe that every child has the potential to excel, and our tailored approach ensures they receive the support they need to succeed.          </p>
         </div>
         {/* School images grid */}
@@ -54,7 +54,7 @@ export function AboutHero() {
           ))}
         </div>
         {/* About school */}
-        <div className="prose prose-lg mx-auto mt-14 sm:prose-xl sm:mt-16 lg:mt-24">
+        <div className="prose text-gray-800 prose-lg mx-auto mt-14 sm:prose-xl sm:mt-16 lg:mt-24">
           <p>
           Our students thrive in a positive, encouraging environment where they are motivated to reach their academic goals. Whether preparing for A-levels, GCSEs, or developing study habits, we are committed to helping each student achieve their best.
 

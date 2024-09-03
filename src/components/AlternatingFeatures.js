@@ -77,7 +77,7 @@ export const AlternatingFeatures = () => {
                 <h1 className="h3 mt-3.5 font-bold text-gray-900">
                   {block.headline}
                 </h1>
-                <p className="mt-3 max-w-xl text-lg text-blue-800 sm:text-xl sm:leading-relaxed">
+                <p className="mt-3 max-w-xl text-lg text-gray-800 sm:text-xl sm:leading-relaxed">
                   {block.text}
                 </p>
               </div>
