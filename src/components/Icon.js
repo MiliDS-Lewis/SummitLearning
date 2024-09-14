@@ -33,9 +33,11 @@ import {
   IconBrandFacebook,
   IconBrandTwitter,
   IconBrandLinkedin,
+  IconEyeDown,
 } from '@tabler/icons-react'
 
 const iconOptions = {
+  eyeDown: IconEyeDown,
   calendar: IconCalendar,
   dollar: IconCurrencyDollar,
   user: IconUser,

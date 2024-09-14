@@ -7,7 +7,7 @@ import clsx from 'clsx'
 
 import { Icon } from '@/components/Icon'
 import { Button } from '@/components/Button'
-import heroImage from '/public/images/stock/hero-image-placeholder-new.jpg'
+import heroImage from '/public/images/stock/hero-home.png'
 
 const ratings = [
   { label: 'Great Schools', stars: 5 },
@@ -63,13 +63,13 @@ export const HomeHero = () => {
             <Button
               variant="secondary"
               className="mt-6 sm:ml-6 sm:mt-0"
-              onClick={() => openModal()}
+              // onClick={() => openModal()}
             >
               <Icon
-                icon="playFilled"
+                icon="eyeDown"
                 className="mr-3 h-7 w-7 text-white duration-300 ease-in-out"
               />
-              Watch video
+              Find out more
             </Button>
           </div>
           {/* Social proof */}
@@ -114,9 +114,9 @@ export const HomeHero = () => {
               alt="Summit Learning Photo Collage"
               sizes="(min-width: 1280px) 39rem, (min-width: 1024px) 50vw, (min-width: 768px) 48rem, 100vw"
             />
-            <div className="absolute inset-0 flex items-center justify-center">
+            {/* <div className="absolute inset-0 flex items-center justify-center">
               <span className="absolute inline-flex h-20 w-20 animate-ping rounded-full bg-blue-400 opacity-60" />
-              {/* Video modal button */}
+       
               <button
                 className="group relative z-10 flex h-20 w-20 items-center justify-center rounded-full bg-blue-600/90 outline-none duration-300 ease-in-out hover:bg-blue-600/95"
                 onClick={() => openModal()}
@@ -126,18 +126,17 @@ export const HomeHero = () => {
                   className="h-12 w-12 text-white/90 duration-300 ease-in-out group-hover:text-white/95"
                 />
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* Video modal*/}
-        <Transition appear show={isOpen} as={Fragment}>
+        {/* <Transition appear show={isOpen} as={Fragment}>
           <Dialog
             as="div"
             className="fixed inset-0 z-10 h-full w-full overflow-hidden px-4 transition duration-150 ease-linear"
             aria-modal="true"
             onClose={closeModal}
           >
-            {/* Modal overlay */}
             <Transition.Child
               as={Fragment}
               enter="transition ease-out duration-300"
@@ -150,7 +149,6 @@ export const HomeHero = () => {
               <Dialog.Overlay className="fixed inset-0 h-screen w-screen bg-black opacity-50 transition-opacity duration-300 ease-linear" />
             </Transition.Child>
             <div className="mx-auto flex min-h-screen w-auto items-center justify-center">
-              {/* Modal Content */}
               <Transition.Child
                 as={Fragment}
                 enter="transition ease-out duration-300"
@@ -175,7 +173,7 @@ export const HomeHero = () => {
               </Transition.Child>
             </div>
           </Dialog>
-        </Transition>
+        </Transition> */}
       </div>
       {/* Visible only on sm screens ( <= 640px ) and lg screens ( >= 1024px	< 1280px ) */}
       <div className="mt-20 flex flex-col items-center sm:hidden lg:mt-24 lg:flex xl:hidden">

@@ -15,9 +15,9 @@ const InfoCard = ({ icon, title, gradientColors, text }) => {
           gradientColors.iconBgColor,
         )}
       >
-        <Icon icon={icon} className="h-8 w-8 text-purple-700" />
+        <Icon icon={icon} className="h-8 w-8 text-white" />
       </span>
-      <h4 className="mt-4 text-center text-xl font-semibold text-purple-900">
+      <h4 className="mt-4 text-center text-xl font-semibold text-gray-900">
         {title}
       </h4>
       <div
@@ -27,7 +27,7 @@ const InfoCard = ({ icon, title, gradientColors, text }) => {
           gradientColors.endColor,
         )}
       />
-      <p className="text-center text-lg text-purple-800">{text}</p>
+      <p className="text-center text-lg text-gray-800">{text}</p>
     </div>
   )
 }
