@@ -1,10 +1,10 @@
 ---
 name: Exam Boards
-dropdownDescription: We teach according to the leading exam boards' curricula, ensuring our children are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
+dropdownDescription: We teach according to the leading exam boards' curricula, ensuring our students are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
 hero:
-  tagline: Where great children grow
-  headline: Summit Learning's Exam Board
-  text: We teach according to the leading exam boards' curricula, ensuring our children are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
+  tagline: Where great students excel
+  headline: Summit Learning's Exam Board Curriculum
+  text: We teach according to the leading exam boards' curricula, ensuring our students are thoroughly prepared for their assessments with the most up-to-date and relevant materials.
   action:
     label: Enroll today
     href: '#'
@@ -12,59 +12,75 @@ hero:
   image:
     src: '/images/stock/summer-camp.jpg'
 infoSection:
-  headline: The Summer Camp dedicated to your student's success
-  text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-  ages: 4 - 5 years old
-  dates: Jan. 13 - Jun. 31
-  schedule: M-F from 8AM - 5 PM
-  classSize: Student to teacher ratio of 10:1
+  headline: Dedicated to Your Student's Success with the Leading Exam Boards
+  text: At Summit Learning, we ensure students are fully equipped for GCSE and A-level exams by teaching the latest curricula from the UK's top exam boards.
+  ages: GCSE & A-level students
+  dates: Year-round availability
+  schedule: Flexible hours, tailored to your student's needs
+  classSize: Student to tutor ratio of 5:1
 descriptionSection:
   text: >
-    ## Our unique approach to education
+    ## Our Unique Approach to Teaching Exam Board Curricula
             
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut. Id porta nibh venenatis cras sed felis eget velit. Ut morbi tincidunt augue interdum velit. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Viverra orci sagittis eu volutpat odio facilisis mauris. Diam quis enim lobortis scelerisque fermentum. Viverra mauris in aliquam sem fringilla. 
-        
-    ### What they will learn
+    At Summit Learning, we follow the official curricula set by the UK's leading exam boards, providing students with a comprehensive and up-to-date education. Our tutors are well-versed in the unique requirements of each board, ensuring that students are fully prepared for their GCSE and A-level exams.
+
+    We support students studying under the following exam boards:
+    
+    ### UK Exam Boards We Cover
           
-    * Vivamus suscipit tortor eget felis porttitor volutpat.
+    * **AQA** (Assessment and Qualifications Alliance)
 
-    * Nulla porttitor accumsan tincidunt.
+    * **Edexcel** (Pearson)
 
-    * Vivamus magna justo, lacinia eget consectetur sed.
+    * **OCR** (Oxford, Cambridge and RSA Examinations)
 
-    * Lorem ipsum dolor sit amet
+    * **WJEC** (Welsh Joint Education Committee)
 
-    * Ut enim ad minim veniam
+    * **CCEA** (Council for the Curriculum, Examinations & Assessment)
+    
 
+    Our focus is on delivering a tailored learning experience that aligns with each exam board's specifications. From coursework guidance to exam techniques, we ensure our students have the tools they need to succeed in their assessments.
 
-    Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Viverra vitae congue eu consequat ac felis donec et odio. Euismod nisi porta lorem mollis aliquam ut porttitor. Sed nisi lacus sed viverra tellus. Augue lacus viverra vitae congue eu consequat ac felis donec. Elementum pulvinar etiam non quam lacus. Ut venenatis tellus in metus vulputate. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse.
+    ### What Students Will Learn
+          
+    * Mastery of the specific curriculum from each exam board.
+
+    * Detailed exam techniques and revision strategies.
+
+    * Effective time management and organizational skills.
+
+    * Confidence-building to handle exam pressure.
+
+    * Personalized feedback to target individual improvement areas.
+
+    With our in-depth knowledge of each exam board's requirements, Summit Learning prepares students to excel in their exams and achieve the best possible results.
   portraitImage: '/images/stock/program-description-01.jpg'
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Summer Camp Plans
-  headline: A program for every parent and student
-  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
+  tagline: Our Exam Prep Plans
+  headline: Tailored Programs for Every Student
+  text: We understand the importance of exam success. That’s why we offer flexible programs designed to fit your student's individual needs and schedule.
   pricing1:
-    name: Regular
-    price: $1.2k
+    name: Standard
+    price: £800
     interval: per month
-    shortDescription: M-F from 8 AM to 3:00 PM
+    shortDescription: 4 sessions per week
     features:
-      - feature: Nulla quis lorem ut libero
-      - feature: Lorem ipsum dolor sit
+      - feature: Personalized exam strategies
+      - feature: Weekly progress reports
     action:
       label: Enroll today
       href: '#'
       icon: true
   pricing2:
-    name: Extended
-    price: $1.5k
+    name: Intensive
+    price: £1.2k
     interval: per month
-    shortDescription: M-F from 8 AM to 5:00 PM
+    shortDescription: 6 sessions per week
     features:
-      - feature: Nulla quis lorem ut libero
-      - feature: Lorem ipsum dolor sit
+      - feature: Comprehensive subject review
+      - feature: Mock exams with feedback
     action:
       label: Enroll today
       href: '#'

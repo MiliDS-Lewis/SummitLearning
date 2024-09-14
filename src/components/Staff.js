@@ -21,10 +21,7 @@ export const Staff = () => {
             </div>
             <div className="flex items-center">
               <p className="mt-5 text-xl leading-relaxed text-white sm:text-center lg:mt-0 lg:text-left">
-                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
-                dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                sem. Quisque velit nisi, pretium ut lacinia in, elementum id
-                enim.
+              Our team of passionate and experienced educators is committed to helping your child succeed. With a focus on personalized learning and a deep understanding of academic needs, the staff at Summit Learning works tirelessly to create an engaging and supportive environment where students can thrive.
               </p>
             </div>
           </div>

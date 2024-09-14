@@ -14,22 +14,22 @@ import blockImage3 from '/public/images/stock/about-03.jpg'
 const bgBlobs = [lightYellowBlob, lightBlueBlob, lightRoseBlob]
 const blocks = [
   {
-    tagline: 'Smart. Kind. Global.',
-    headline: 'Developing young, caring and responsible individuals',
-    text: 'Lorem ipsum dolor, sit amet consectetur elit do eius mod tempor labore sit amet. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Half galão extraction extra luwak luwak at con cappuccino milk that cortado organic est sit.',
-    image: { src: blockImage1, alt: 'Child covered in paint' },
+    tagline: 'Expert Tutors. Proven Results.',
+    headline: 'Achieving Excellence with Experienced Tutors',
+    text: 'At Summit Learning, our highly qualified tutors are dedicated to helping your child reach their full potential. With years of experience, we provide expert guidance in GCSE and A-level subjects, ensuring students master key concepts and succeed in their exams.',
+    image: { src: blockImage1, alt: 'Tutor working with student' },
   },
   {
-    tagline: 'Pod environment',
-    headline: 'Getting the attention they deserve',
-    text: 'Lorem ipsum dolor, sit amet consectetur elit do eius mod tempor labore sit amet. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Half galão extraction extra luwak luwak at con cappuccino milk that cortado organic est sit.',
-    image: { src: blockImage2, alt: 'Child painting' },
+    tagline: 'Small Groups, Big Impact',
+    headline: 'Focused Attention for Every Student',
+    text: 'We maintain small group sizes to ensure each student receives the individual attention they deserve. This allows our tutors to address specific learning needs and offer personalized feedback, helping students stay on track and build confidence in their abilities.',
+    image: { src: blockImage2, alt: 'Tutor assisting a small group of students' },
   },
   {
-    tagline: 'Personalized learning.',
-    headline: 'Every child has their own personalized education program',
-    text: 'Lorem ipsum dolor, sit amet consectetur elit do eius mod tempor labore sit amet. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Half galão extraction extra luwak luwak at con cappuccino milk that cortado organic est sit.',
-    image: { src: blockImage3, alt: 'Child working on workbook' },
+    tagline: 'Customized Learning Plans',
+    headline: 'Tailored Programs to Fit Your Child’s Needs',
+    text: 'Every child learns differently, which is why we create personalized learning plans for each student. Our tailored approach adapts to their strengths and areas for improvement, ensuring they get the most out of their tutoring sessions and achieve academic success.',
+    image: { src: blockImage3, alt: 'Student working on personalized materials' },
   },
 ]
 

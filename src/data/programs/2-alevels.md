@@ -13,42 +13,44 @@ hero:
   image:
     src: '/images/stock/kindergarten.jpg'
 infoSection:
-  headline: The Kindergarten dedicated to your student's success
-  text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-  ages: 4 - 5 years old
-  dates: Jan. 13 - Jun. 31
-  schedule: M-F from 8AM - 5 PM
-  classSize: Student to teacher ratio of 10:1
+  headline: Tutor's dedicated to your child's success
+  text: At Summit Learning, our tutors are committed to guiding your child to A-Levels success. Through personalized instruction and expert teaching, we provide the support needed to build confidence and achieve academic goals. Trust us to equip your child with the tools and encouragement to excel.
+  ages: 16 - 18 years old
+  dates: Academic year
+  schedule: M-F from 8AM - 9 PM
+  classSize: "1:1"
 descriptionSection:
   text: >
-    ## Our unique approach to education
-            
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut. Id porta nibh venenatis cras sed felis eget velit. Ut morbi tincidunt augue interdum velit. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Viverra orci sagittis eu volutpat odio facilisis mauris. Diam quis enim lobortis scelerisque fermentum. Viverra mauris in aliquam sem fringilla. 
-        
-    ### What they will learn
-          
-    * Vivamus suscipit tortor eget felis porttitor volutpat.
+   ## Our Unique Approach to A-level Tutoring
+   
+   At Summit Learning, our A-level tutoring is designed to help students achieve academic excellence while preparing them for the next steps in their education journey. We offer a personalized and supportive learning environment that tailors instruction to each student's needs, ensuring they fully grasp complex topics. Our experienced tutors are not only subject matter experts but are also committed to building confidence and independent thinking in every student.
+   
+   ### What they will learn
+   
+   * Advanced understanding of key A-level subjects.
+   
+   * Critical thinking and analytical skills.
+   
+   * Exam strategies tailored to each subject.
+   
+   * Time management and study techniques for A-level success.
+   
+   * Practical application of knowledge for university readiness.
+  
+  
 
-    * Nulla porttitor accumsan tincidunt.
+   Our goal is to equip students with the skills and knowledge they need to succeed in their A-level exams and beyond. By focusing on each student's unique strengths, we help them unlock their full potential and prepare for future academic and career challenges with confidence.
 
-    * Vivamus magna justo, lacinia eget consectetur sed.
-
-    * Lorem ipsum dolor sit amet
-
-    * Ut enim ad minim veniam
-
-
-    Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Viverra vitae congue eu consequat ac felis donec et odio. Euismod nisi porta lorem mollis aliquam ut porttitor. Sed nisi lacus sed viverra tellus. Augue lacus viverra vitae congue eu consequat ac felis donec. Elementum pulvinar etiam non quam lacus. Ut venenatis tellus in metus vulputate. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse.
   portraitImage: '/images/stock/program-description-01.jpg'
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Kindergarten Plans
-  headline: A program for every parent and student
-  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
+  tagline: Our A-Level Plans
+  headline: A program for every parent and child
+  text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
-    price: $1.2k
+    price: £1.2k
     interval: per month
     shortDescription: M-F from 8 AM to 3:00 PM
     features:
@@ -60,7 +62,7 @@ pricingSection:
       icon: true
   pricing2:
     name: Extended
-    price: $1.5k
+    price: £1.5k
     interval: per month
     shortDescription: M-F from 8 AM to 5:00 PM
     features:

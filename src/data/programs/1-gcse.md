@@ -13,8 +13,8 @@ hero:
   image:
     src: '/images/stock/elementary-school.jpg'
 infoSection:
-  headline: Tutor's dedicated to your student's success
-  text: At Summit Learning, our tutors are committed to guiding your student to GCSE success. Through personalized instruction and expert teaching, we provide the support needed to build confidence and achieve academic goals. Trust us to equip your student with the tools and encouragement to excel.
+  headline: Tutor's dedicated to your child's success
+  text: At Summit Learning, our tutors are committed to guiding your child to GCSE success. Through personalized instruction and expert teaching, we provide the support needed to build confidence and achieve academic goals. Trust us to equip your child with the tools and encouragement to excel.
   ages: 14 - 16 years old
   dates: Academic year
   schedule: M-F from 8AM - 9 PM
@@ -23,7 +23,7 @@ descriptionSection:
   text: >
     ## Our Unique Approach to GCSE Tutoring
     
-    At Summit Learning, our GCSE tutoring program is designed to provide personalized support that aligns with each student's individual needs and learning style. We focus on building a solid foundation in key subjects, ensuring students not only understand the material but also develop the critical thinking skills needed to excel in their exams. Our experienced tutors work closely with each student, offering targeted guidance and strategies to boost confidence and academic performance.
+    At Summit Learning, our GCSE tutoring program is designed to provide personalized support that aligns with each child's individual needs and learning style. We focus on building a solid foundation in key subjects, ensuring students not only understand the material but also develop the critical thinking skills needed to excel in their exams. Our experienced tutors work closely with each student, offering targeted guidance and strategies to boost confidence and academic performance.
     
     ### What They Will Learn
     
@@ -43,11 +43,11 @@ descriptionSection:
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
   tagline: Our GCSE Plans
-  headline: A program for every parent and student
-  text: We know you care about your children's future. That’s why we offer you the freedom to choose the right program for them.
+  headline: A program for every parent and child
+  text: We know you care about your child's future. That’s why we offer you the freedom to choose the right program for them.
   pricing1:
     name: Regular
-    price: $1.2k
+    price: £1.2k
     interval: per month
     shortDescription: M-F from 8 AM to 3:00 PM
     features:
@@ -59,7 +59,7 @@ pricingSection:
       icon: true
   pricing2:
     name: Extended
-    price: $1.5k
+    price: £1.5k
     interval: per month
     shortDescription: M-F from 8 AM to 5:00 PM
     features:

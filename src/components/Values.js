@@ -7,22 +7,22 @@ const values = [
   {
     value: 'Excellence and Innovation',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt ut labore et',
+      'We strive for academic excellence by continuously improving our teaching methods, offering the most innovative approaches to support student success.',
   },
   {
-    value: 'Creativity',
+    value: 'Personalized Learning',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt ut labore et',
+      'We tailor our teaching to meet the unique needs of each student, ensuring they receive the support and guidance necessary to thrive academically.',
   },
   {
-    value: 'Trustworthiness',
+    value: 'Integrity and Trust',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt ut labore et',
+      'We believe in honesty, transparency, and building trust with students and parents, fostering a supportive learning environment.',
   },
   {
-    value: 'Nurturing Individuality',
+    value: 'Empowering Confidence',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eius mod tempor incididunt ut labore et',
+      'We focus on helping students build confidence in their abilities, encouraging them to take charge of their learning and reach their full potential.',
   },
 ]
 
@@ -38,9 +38,7 @@ export const Values = () => {
               Our core values and principles
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-gray-800 sm:text-center md:mt-5 lg:mx-0 lg:text-left">
-              Pellentesque in ipsum id orci porta dapibus. Nulla quis lorem ut
-              libero malesuada feugiat. Donec rutrum congue leo eget malesuada.
-              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+            At Summit Learning, our core values guide everything we do. We are dedicated to providing a personalized, innovative, and supportive learning experience for each student. With a strong focus on integrity, excellence, and empowerment, we aim to build confident learners equipped with the skills to achieve their academic goals and beyond.
             </p>
             {/* Values */}
             <div className="mt-10 grid max-w-4xl gap-6 sm:mx-auto sm:grid-cols-2 lg:mx-0 lg:max-w-md lg:grid-cols-1">

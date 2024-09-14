@@ -1,10 +1,10 @@
 ---
 name: Exam Prep
-dropdownDescription: Exam prep helps children review and master key concepts, build confidence, and improve performance for upcoming tests and exams.
+dropdownDescription: Exam prep helps students review and master key concepts, build confidence, and improve performance for upcoming tests and exams.
 hero:
-  tagline: Where great children grow
+  tagline: Where great students succeed
   headline: Summit Learning's Exam Prep Program
-  text: Exam prep helps children review and master key concepts, build confidence, and improve performance for upcoming tests and exams.
+  text: Exam prep helps students review and master key concepts, build confidence, and improve performance for upcoming tests and exams.
   action:
     label: Enroll today
     href: '#'
@@ -12,59 +12,59 @@ hero:
   image:
     src: '/images/stock/preschool.jpg'
 infoSection:
-  headline: The Preschool dedicated to your student's success
-  text: Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-  ages: 4 - 5 years old
-  dates: Jan. 13 - Jun. 31
-  schedule: M-F from 8AM - 5 PM
-  classSize: Student to teacher ratio of 10:1
+  headline: The Tutoring Program Dedicated to Your Student's Exam Success
+  text: At Summit Learning, we focus on personalized exam preparation that targets each student's specific needs, helping them gain confidence and achieve top results in their exams.
+  ages: GCSE & A-level students
+  dates: Year-round availability
+  schedule: Flexible hours, tailored to your student's needs
+  classSize: Student to tutor ratio of 5:1
 descriptionSection:
   text: >
-    ## Our unique approach to education
+    ## Our Unique Approach to Exam Preparation
             
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl pretium fusce id velit ut. Id porta nibh venenatis cras sed felis eget velit. Ut morbi tincidunt augue interdum velit. Ipsum faucibus vitae aliquet nec ullamcorper sit amet. Viverra orci sagittis eu volutpat odio facilisis mauris. Diam quis enim lobortis scelerisque fermentum. Viverra mauris in aliquam sem fringilla. 
-        
+    At Summit Learning, our exam prep tutoring program is designed to help students build confidence and master key subjects in preparation for their GCSE or A-level exams. We provide tailored support to address individual areas for improvement while reinforcing strengths. Our tutors work one-on-one or in small groups to deliver targeted learning strategies that ensure each student is fully prepared for exam day. 
+
     ### What they will learn
           
-    * Vivamus suscipit tortor eget felis porttitor volutpat.
+    * Mastery of core subjects and exam techniques.
 
-    * Nulla porttitor accumsan tincidunt.
+    * Effective time management and study habits.
 
-    * Vivamus magna justo, lacinia eget consectetur sed.
+    * Strategies for handling exam pressure and stress.
 
-    * Lorem ipsum dolor sit amet
+    * Personalized feedback to improve weak areas.
 
-    * Ut enim ad minim veniam
+    * Confidence-boosting techniques for exam day success.
 
 
-    Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Viverra vitae congue eu consequat ac felis donec et odio. Euismod nisi porta lorem mollis aliquam ut porttitor. Sed nisi lacus sed viverra tellus. Augue lacus viverra vitae congue eu consequat ac felis donec. Elementum pulvinar etiam non quam lacus. Ut venenatis tellus in metus vulputate. Ultrices dui sapien eget mi proin sed libero enim. Id velit ut tortor pretium viverra suspendisse.
+    We provide a comprehensive program that not only strengthens subject knowledge but also equips students with the skills they need to perform their best in exams. Our unique approach is focused on individual progress, ensuring each student is ready to achieve their academic goals.
   portraitImage: '/images/stock/program-description-01.jpg'
   squareImage1: '/images/stock/program-description-02.jpg'
   squareImage2: '/images/stock/program-description-03.jpg'
 pricingSection:
-  tagline: Our Preschool Plans
-  headline: A program for every parent and student
-  text: We know you care about your student's future. That’s why we offer you the freedom to choose the right program for them.
+  tagline: Our Exam Prep Plans
+  headline: A tailored program for every student
+  text: We understand the importance of exam success. That’s why we offer flexible programs designed to fit your student's individual needs and schedule.
   pricing1:
-    name: Regular
-    price: $1.2k
+    name: Standard
+    price: £800
     interval: per month
-    shortDescription: M-F from 8 AM to 3:00 PM
+    shortDescription: 4 sessions per week
     features:
-      - feature: Nulla quis lorem ut libero
-      - feature: Lorem ipsum dolor sit
+      - feature: Personalized exam strategies
+      - feature: Weekly progress reports
     action:
       label: Enroll today
       href: '#'
       icon: true
   pricing2:
-    name: Extended
-    price: $1.5k
+    name: Intensive
+    price: £1.2k
     interval: per month
-    shortDescription: M-F from 8 AM to 5:00 PM
+    shortDescription: 6 sessions per week
     features:
-      - feature: Nulla quis lorem ut libero
-      - feature: Lorem ipsum dolor sit
+      - feature: Comprehensive subject review
+      - feature: Mock exams with feedback
     action:
       label: Enroll today
       href: '#'
