@@ -67,7 +67,7 @@ export const Footer = ({ programs, contact }) => {
               <li
                 key={`footer-program-link-${program.data.name}`}
                 className={clsx(
-                  'font-medium text-blue-700 duration-300 ease-in-out hover:text-blue-600',
+                  'font-medium text-gray-700 duration-300 ease-in-out hover:text-gray-600',
                   index == 0 && 'pb-2',
                   index == programs.length && 'pt-2',
                   index > 0 && index < programs.length && 'py-2',
@@ -90,7 +90,7 @@ export const Footer = ({ programs, contact }) => {
               <li
                 key={`footer-site-link-${link.label}`}
                 className={clsx(
-                  'font-medium text-blue-700 duration-300 ease-in-out hover:text-blue-600',
+                  'font-medium text-gray-700 duration-300 ease-in-out hover:text-gray-600',
                   index == 0 && 'pb-2',
                   index == siteLinks.length && 'pt-2',
                   index > 0 && index < siteLinks.length && 'py-2',
