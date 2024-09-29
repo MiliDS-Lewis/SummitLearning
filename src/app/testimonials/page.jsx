@@ -1,6 +1,6 @@
-import { ParentsHero } from '@/components/ParentsHero'
-import { Events } from '@/components/Events'
-import { Newsletter } from '@/components/Newsletter'
+import { TestimonialHero } from '@/components/TestimonialHero'
+import { Stats } from '@/components/Stats'
+import { Testimonials } from '@/components/Testimonials'
 
 export const metadata = {
   title: 'Parent information - Summit Learning',
@@ -11,9 +11,9 @@ export const metadata = {
 export default function ParentsPage() {
   return (
     <>
-      <ParentsHero />
-      <Events />
-      <Newsletter />
+      <TestimonialHero />
+      <Testimonials /> 
+      <Stats/>
     </>
   )
 }
