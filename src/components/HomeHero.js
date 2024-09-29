@@ -44,11 +44,7 @@ export const HomeHero = () => {
             Empowering Academic Success!
           </h1>
           <p className="mt-3 max-w-2xl text-center text-xl leading-loose text-gray-800 lg:text-left">
-            At Summit Learning, we guide GCSE and A-level students to their
-            academic peak, nurturing their unique strengths and creativity
-            through personalized education. Our goal is to ensure every student
-            reaches their full potential and achieves success, exceeding their
-            expectations.
+          At Summit Learning, we provide expert tutoring for 7+, 11+, GCSE, A-level, and university students, helping them reach their academic peak. Through personalized instruction, we nurture each student's strengths, creativity, and critical thinking, ensuring they exceed their own expectations and achieve lasting success.
           </p>
           {/* Hero buttons */}
           <div className="mt-8 flex flex-col items-center overflow-hidden sm:flex-row">

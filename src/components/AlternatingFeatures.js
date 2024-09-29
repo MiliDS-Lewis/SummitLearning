@@ -16,9 +16,9 @@ const blocks = [
   {
     tagline: 'Expert Tutors. Proven Results.',
     headline: 'Achieving Excellence with Experienced Tutors',
-    text: 'At Summit Learning, our highly qualified tutors are dedicated to helping your child reach their full potential. With years of experience, we provide expert guidance in GCSE and A-level subjects, ensuring students master key concepts and succeed in their exams.',
+    text: 'At Summit Learning, our highly qualified tutors are dedicated to helping students at every level—7+, 11+, GCSE, A-level, and university. With years of experience, we provide expert guidance in key subjects, ensuring students master core concepts and achieve academic success.',
     image: { src: blockImage1, alt: 'Tutor working with student' },
-  },
+  },  
   {
     tagline: 'Small Groups, Big Impact',
     headline: 'Focused Attention for Every Student',

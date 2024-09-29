@@ -55,16 +55,16 @@ export function AboutHero() {
         </div>
         {/* About school */}
         <div className="prose text-gray-800 prose-lg mx-auto mt-14 sm:prose-xl sm:mt-16 lg:mt-24">
-          <p>
-          Our students thrive in a positive, encouraging environment where they are motivated to reach their academic goals. Whether preparing for A-levels, GCSEs, or developing study habits, we are committed to helping each student achieve their best.
-
-</p>
-          <p>
-          Our approach is rooted in understanding that education is not one-size-fits-all. By adapting our teaching methods to match each student’s strengths, we create a learning experience that is both effective and enjoyable. At Summit Learning, we aim to inspire a lifelong love of learning and equip students with the tools they need for future success.
-
-We take pride in the success stories of our students and the trust parents place in us to guide their children on the path to academic achievement. Join us at Summit Learning and discover the difference a personalized education can make.
-          </p>
-        </div>
+  <p>
+    At Summit Learning, our students thrive in a positive, supportive environment where they are motivated to excel at every stage of their education. From 7+ and 11+ exams to GCSEs, A-levels, and university-level support, we are committed to helping each student achieve their academic goals and reach their full potential.
+  </p>
+  <p>
+    We understand that education is not one-size-fits-all. By adapting our teaching methods to match each student’s unique strengths and learning style, we create a tailored learning experience that is both enjoyable and effective. Our goal is to foster a lifelong love of learning and equip students with the skills they need to succeed now and in the future.
+  </p>
+  <p>
+    At Summit Learning, we take great pride in the success of our students and the trust that parents place in us to guide their children. With personalized support and a focus on individual growth, we are dedicated to helping students achieve academic excellence and build a strong foundation for their future. Join us and experience the transformative impact of tailored education at Summit Learning.
+  </p>
+</div>
       </div>
     </section>
   )

@@ -1,6 +1,7 @@
 import { ProgramHero } from '@/components/ProgramHero'
 import { ProgramInformation } from '@/components/ProgramInformation'
 import { ProgramDescription } from '@/components/ProgramDescription'
+import { SubjectDescription } from '@/components/SubjectDescription'
 import { ProgramPricing } from '@/components/ProgramPricing'
 
 import { getItemData, getAllItems } from '@/lib/getItems'
@@ -22,6 +23,9 @@ export default function ProgramPage({ params: { slug } }) {
       {program?.hero && <ProgramHero hero={program.hero} />}
       {program?.infoSection && (
         <ProgramInformation data={program.infoSection} />
+      )}
+      {program?.subjectsSection && (
+        <SubjectDescription data={program.subjectsSection} />
       )}
       {program?.descriptionSection && (
         <ProgramDescription data={program.descriptionSection} />
