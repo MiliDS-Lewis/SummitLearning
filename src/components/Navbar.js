@@ -184,41 +184,42 @@ export function Navbar({ programs }) {
                           leaveFrom="transform opacity-100 scale-100"
                           leaveTo="transform opacity-0 scale-95"
                         >
-                          <Menu.Items className="absolute left-1/2 z-20 mt-3 w-screen max-w-xs -translate-x-1/2 rounded-2xl border border-gray-50 bg-white p-4 shadow-lg outline-none focus:outline-none">
-                            {programs.map((program, index) => (
-                              <Menu.Item
-                                key={`desktop-dropdown-link-${program.data.name}`}
-                                as="div"
-                              >
-                                {({ close }) => (
-                                  <>
-                                    <Link
-                                      href={`/programs/${program.slug}`}
-                                      className={clsx(
-                                        'group block w-full rounded-xl py-4 sm:p-5',
-                                        pathname === `/programs/${program.slug}`
-                                          ? 'bg-blue-25'
-                                          : 'hover:bg-blue-25/60 transition duration-200 ease-in-out',
-                                      )}
-                                      onClick={close}
-                                    >
-                                      <h5 className="text-lg font-semibold text-blue-600">
-                                        {program.data.name}
-                                      </h5>
-                                      <p className="mt-1 text-sm text-gray-800 opacity-90">
-                                        {program.data.dropdownDescription}
-                                      </p>
-                                    </Link>
-                                    {index != programs.length - 1 && (
-                                      <>
-                                        <hr className="my-1 border-blue-200/30 sm:my-2" />
-                                      </>
-                                    )}
-                                  </>
-                                )}
-                              </Menu.Item>
-                            ))}
-                          </Menu.Items>
+                      <Menu.Items className="absolute left-1/2 z-20 mt-3 w-screen max-w-5xl -translate-x-1/4 rounded-2xl border border-gray-50 bg-white p-4 shadow-lg outline-none focus:outline-none">
+  <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-4">
+    {programs.map((program, index) => (
+      <Menu.Item
+        key={`desktop-dropdown-link-${program.data.name}`}
+        as="div"
+      >
+        {({ close }) => (
+          <>
+            <Link
+              href={`/programs/${program.slug}`}
+              className={clsx(
+                'group block w-full rounded-xl py-4 sm:p-5',
+                pathname === `/programs/${program.slug}`
+                  ? 'bg-blue-25'
+                  : 'hover:bg-blue-25/60 transition duration-200 ease-in-out',
+              )}
+              onClick={close}
+            >
+              <h5 className="text-lg font-semibold text-blue-600">
+                {program.data.name}
+              </h5>
+              <p className="mt-1 text-sm text-gray-800 opacity-90">
+                {program.data.dropdownDescription}
+              </p>
+            </Link>
+            {index != programs.length - 1 && (
+              <hr className="my-1 border-blue-200/30 sm:my-2" />
+            )}
+          </>
+        )}
+      </Menu.Item>
+    ))}
+  </div>
+</Menu.Items>
+
                         </Transition>
                       </>
                     )}
