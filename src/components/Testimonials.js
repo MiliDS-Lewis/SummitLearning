@@ -15,7 +15,7 @@ export const Testimonials = () => {
   const testimonials = getAllItems('testimonials')
 
   return (
-    <section className="bg-blue-600 py-20 sm:py-28 md:-mt-48 lg:py-32">
+    <section className="bg-blue-600 py-20 sm:py-28 md:mt-48 lg:py-32">
       {/* Container */}
       <div className="mx-auto px-4 sm:px-6 lg:max-w-screen-2xl">
         {/* Section header title and subheader */}
